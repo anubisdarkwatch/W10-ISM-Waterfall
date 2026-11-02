@@ -86,4 +86,4 @@ MIT, see [LICENSE](LICENSE).
 
 ## Credits
 
-Built by Anubis Darkwatch with Claude. Pin mapping and peripheral details from Meshnology's W10 documentation and demos.
+Built by Anubis Darkwatch. Pin mapping and peripheral details from Meshnology's W10 documentation and demos.

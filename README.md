@@ -88,4 +88,6 @@ MIT, see [LICENSE](LICENSE).
 
 ## Credits
 
-Built by Anubis Darkwatch with Claude. Pin mapping and peripheral details from Meshnology's W10 documentation and demos.
+Built by Anubis Darkwatch with Claude.
+
+Hardware provided by [Meshnology](https://meshnology.com): thanks for supplying the [Meshnology W10 LoRa AIoT Dev Kit](https://meshnology.com/products/meshnology-w10-lora-aiot-dev-kit-esp32-s3-long-range-iot-development-board) for this project. Pin mapping and peripheral details come from Meshnology's W10 documentation and demos.

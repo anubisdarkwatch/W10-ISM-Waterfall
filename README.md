@@ -6,6 +6,8 @@ A standalone handheld spectrum waterfall for the US 902–928 MHz ISM band, runn
 
 No laptop, SDR or phone app needed. Receive-only.
 
+Companion project: [W10-Beat-Conductor](https://github.com/anubisdarkwatch/W10-Beat-Conductor), a beat-synced light show for the same board.
+
 | Normal view | Nearby node transmitting (overload) |
 |---|---|
 | ![Waterfall](docs/waterfall.jpg) | ![Overload](docs/overload.jpg) |
@@ -86,4 +88,4 @@ MIT, see [LICENSE](LICENSE).
 
 ## Credits
 
-Built by Anubis Darkwatch. Pin mapping and peripheral details from Meshnology's W10 documentation and demos.
+Built by Anubis Darkwatch with Claude. Pin mapping and peripheral details from Meshnology's W10 documentation and demos.

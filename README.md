@@ -12,6 +12,15 @@ Companion project: [W10-Beat-Conductor](https://github.com/anubisdarkwatch/W10-B
 |---|---|
 | ![Waterfall](docs/waterfall.jpg) | ![Overload](docs/overload.jpg) |
 
+## Flash it from the browser (no Arduino IDE)
+
+1. Plug the W10 in over USB. In Chrome or Edge on desktop, open https://espressif.github.io/esptool-js/,
+   click **Connect** and pick its port.
+2. Set the flash address to **0x0**, choose [`firmware/W10-ISM-Waterfall-v1.0.bin`](firmware/W10-ISM-Waterfall-v1.0.bin), click **Program**.
+3. When it finishes, unplug and replug (or press RST).
+
+If **Connect** fails: hold **BOOT**, tap **RESET**, release BOOT, and try again.
+
 ## What it does
 
 - Sweeps 902–928 MHz with the SX1262 and reads instantaneous RSSI at each step

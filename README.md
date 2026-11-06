@@ -14,6 +14,12 @@ Companion project: [W10-Beat-Conductor](https://github.com/anubisdarkwatch/W10-B
 
 ## Flash it from the browser (no Arduino IDE)
 
+**⚡ One click: [Flash Station](https://anubisdarkwatch.github.io/flash/).** Open it in Chrome or Edge on desktop,
+find your board's card, click **INSTALL** and pick its port. It always has the newest version. When it asks about
+erasing, choose **no** to keep your saved settings.
+
+**Manual, with esptool-js:**
+
 1. Plug the W10 in over USB. In Chrome or Edge on desktop, open https://espressif.github.io/esptool-js/,
    click **Connect** and pick its port.
 2. Set the flash address to **0x0**, choose [`firmware/W10-ISM-Waterfall-v1.0.bin`](firmware/W10-ISM-Waterfall-v1.0.bin), click **Program**.
